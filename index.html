@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little House of Cakes</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="scripts/main.js"></script>
+    <script type="text/javascript" src="https://kit.fontawesome.com/a6466f9591.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="page__container">
+            <a href="#" tabindex="1" class="nav__logo"><img src="media/logo_transparent.png" alt="Little House of Cakes Logo" title="Little House of Cakes"></a>
+            <ul class="nav__menu">
+                <a href="#about" tabindex="2" class="nav__menu__item about"><li>About</li></a>
+                <a href="#gallery" tabindex="3" class="nav__menu__item gallery"><li>Gallery</li></a>
+                <a href="#menu" tabindex="4" class="nav__menu__item menu"><li>Menu</li></a>
+                <a href="#contact" tabindex="5" class="nav__menu__item contact"><li>Contact</li></a>
+            </ul>
+        </div>
+    </div>
+    <div class="page" id="home">
+        <div class="page__container">
+            <div class="splash">
+                <div class="logo">
+                    <img alt="Spinner" title="Little House of Cakes" id="spinner" src="media/logo_border.png">
+                    <img alt="Spinner" title="Little House of Cakes"  src="media/logo_cake.png">
+                </div>
+                <a href="#gallery" class="cta" tabindex="6">See our cakes&nbsp;<i class="fas fa-arrow-circle-down"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="about">
+        <div class="page__container">
+            <h2>I create bespoke celebration cakes and bakes for any occasion. I am a self taught baker with a passion for all things sweet!</h2>
+            <p>Established in the charming Cornish city of Truro, I have been baking since 2017, and what started as a small hobby has turned into an amazing career!</p>
+        </div>
+    </div>
+    <div class="page" id="gallery">
+        <div class="page__container">
+            <div class="page__grid">
+                <div class="page__grid__item" tabindex="7"><img src="media/gallery/134700150_699510784080310_2901486561013839830_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="8"><img src="media/gallery/193461354_777607959603925_7798707511069724753_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="9"><img src="media/gallery/241135477_831302147567839_8371631262266630405_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="10"><img src="media/gallery/241629949_834874120543975_4521662005377830989_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="11"><img src="media/gallery/242217287_840775279953859_6842039856512726610_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="12"><img src="media/gallery/242255973_840945993270121_641541908503574565_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="13"><img src="media/gallery/67509025_365047200860005_2174562862750498816_n.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="14"><img src="media/gallery/780250729339648.webp" alt="A delicious cake" title="One of our many delicious cakes"></div>
+                <div class="page__grid__item" tabindex="15"><img src="media/gallery/780638352634219.jpg" alt="A delicious cake" title="One of our many delicious cakes"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="menu">
+        <div class="page__container">
+            <img class="page__image" src="media/menu.png" alt="Little House of Cakes Menu" title="Little House of Cakes Menu"  tabindex="16">
+        </div>
+    </div>
+    <div class="page" id="contact">
+        <div class="page__container">
+            <h1>Contact Us</h1>
+            <form class="form">
+                <div class="form__fieldset">
+                    <label class="form__label" for="name" id="l-name">Name</label>
+                    <input class="form__field" type="text" id="name" name="name" title="Name" tabindex="17">
+                </div>
+                <div class="form__fieldset">
+                    <label class="form__label" for="email" id="l-email">Email</label>
+                    <input class="form__field" type="email" id="email" name="email" tabindex="18">
+                </div>
+                <div class="form__fieldset">
+                    <label class="form__label" for="number" id="l-number">Telephone</label>
+                    <input class="form__field" type="tel" id="number" name="number" tabindex="19">
+                </div>
+                <div class="form__fieldset">
+                    <label class="form__label" for="message" id="l-message">Message</label>
+                    <textarea class="form__field" id="message" name="message" tabindex="20" rows="4"></textarea>
+                </div>
+                <input class="form__field field--button" type="button" id="send" name="send" value="Send" tabindex="21">
+            </form>
+            <ul class="social">
+                <li><a class="social__link"href="#f" tabindex="22"><i class="fab fa-facebook-square" title="Facebook"></i></a></li>
+                <li><a class="social__link" href="#i" tabindex="23"><i class="fab fa-instagram-square" title="Instagram"></i></a></li>
+                <li><a class="social__link" href="#p" tabindex="24"><i class="fas fa-phone-square-alt" title="Telephone"></i></a></li>
+                <li><a class="social__link" href="#m" tabindex="25"><i class="fas fa-envelope-square" title="Message"></i></a></li>
+            </ul>
+            <p class="footer">&copy; 2021 All Rights Reserved. Little House of Cake, Cornwall</p>
+        </div>
+    </div>
+    <div class="overlay" id="overlay">
+        <img src="#">
+    </div>
+</body>
+</html>
